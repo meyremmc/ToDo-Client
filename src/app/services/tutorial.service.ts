@@ -3,7 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 import { Tutorial } from '../models/tutorial.model';
 
-const baseUrl = 'https://todonh.azurewebsites.net/';
+const baseUrl = 'https://todonh.azurewebsites.net/api/tutorials';
 
 @Injectable({
   providedIn: 'root',
